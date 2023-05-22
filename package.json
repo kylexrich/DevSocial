@@ -1,0 +1,30 @@
+{
+  "name": "devsocial",
+  "version": "1.0.0",
+  "description": "Social Media App For Developers",
+  "main": "server.js",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "node server.js",
+    "dev": "concurrently \"nodemon server.js\" \"npm run client\"",
+    "start": "npm run server",
+    "heroku-postbuild": "cd client && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd client && npm install && cd .."
+  },
+  "author": "Kyle Rich",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.0",
+    "gravatar": "^1.8.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.1",
+    "normalize-url": "^6.1.0",
+    "dotenv": "^16.0.3",
+    "concurrently": "^6.2.0"
+  }
+}
