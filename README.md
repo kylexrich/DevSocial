@@ -2,7 +2,7 @@
 This is a social media app tailored towards developers. Users can do things such as create and edit their profile, make posts, comment, and like.
 
 ## Live Demo
-https://devsocialnetwork.herokuapp.com/
+https://devsocial.herokuapp.com/
 
 ## Motivation
 I used this project as a stepping stone to develop the skills necessary to build another project I have always been interested in creating -- a social media productivity app where you can compete with your friends to see who is most productive. This project was perfect, as it taught me many of the things I need to know to accomplish what I have in mind for future projects. Determined to learn the MERN stack and workflow, I followed tutorials created by Brad Traversy to help me build this.
