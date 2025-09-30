@@ -11,9 +11,8 @@
     "server": "node server.js",
     "dev": "concurrently \"nodemon server.js\" \"npm run client\"",
     "start": "npm run server",
-    "heroku-postbuild": "cd client && npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "cd client && npm install && cd .."
+    "heroku-postbuild": "cd client && npm install && NODE_OPTIONS=--openssl-legacy-provider npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kyle Rich",
   "license": "MIT",
