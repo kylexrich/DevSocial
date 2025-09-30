@@ -1,0 +1,3 @@
+MONGO_URI=mongodb+srv://kylexrich:
+JWT_SECRET=myjwtsecret
+GITHUB_TOKEN=dasdsadassad
