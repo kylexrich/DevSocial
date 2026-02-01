@@ -2,7 +2,7 @@
 
 DevSocial is a lightweight MERN social network for developers. Create a profile, showcase experience, link GitHub repos, and share posts with comments and likes.
 
-**Live demo:** https://devsocial.herokuapp.com/ (may sleep on free tier; run locally if so).
+**Live demo:** https://devsocial.herokuapp.com/ (wait 30s to boot up. If offline, run locally—see below).
 
 ## Features
 - Email/password signup/login with JWT.
